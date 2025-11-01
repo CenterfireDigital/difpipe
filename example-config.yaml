@@ -1,0 +1,21 @@
+transfer:
+  source:
+    path: /tmp/test-data
+  destination:
+    path: /tmp/test-backup
+  options:
+    strategy: auto
+    parallel: 4
+    checkpoint: true
+    compression: auto
+    dry_run: false
+  filters:
+    include:
+      - "*.txt"
+      - "*.log"
+    exclude:
+      - "*.tmp"
+
+output:
+  format: json
+  stream: false

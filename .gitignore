@@ -1,0 +1,57 @@
+# Binaries
+/difpipe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.html
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+.difpipe/
+
+# Build artifacts
+dist/
+build/
+/difpipe
+
+# Documentation (planning/internal only)
+docs/
+
+# Environment and secrets
+.env
+
+# Claude Code settings
+.claude/
+
+# Test files
+test-*.yaml
+test-*.bin
+create-test-files.sh
